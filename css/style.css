@@ -104,7 +104,16 @@ button:hover {
 }
 
 .centered-image {
+    width: 100%; 
+    max-width: 100%; 
+    height: auto; 
+    overflow: hidden;
     text-align: center;
+}
+
+.centered-image img {
+    width: 70%; 
+    height: auto; 
 }
 
 #keliling-form input {
